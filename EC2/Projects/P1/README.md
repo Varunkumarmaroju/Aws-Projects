@@ -15,7 +15,7 @@ Public web server running on EC2 (t2.micro, Free Tier), reachable over HTTP.
  Steps Performed
 
 1. **Launch instance** (Amazon Linux 2, t2.micro).  
-   ![Step 1 - Launch Instance](images/Screenshot%202025-08-24%20003128.jpg)
+   ![Step 1 - Launch Instance](images/Screenshot%202025-08-24%20003227.jpg)
 
 
 2. **Configure Security Group**  
@@ -35,7 +35,7 @@ Public web server running on EC2 (t2.micro, Free Tier), reachable over HTTP.
 5. **Upload website content**
 
 6. **Access the website via public IP**  
-![Step 3 - Website Running](images/Screenshot%202025-08-24%20003227.jpg)
+![Step 3 - Website Running](images/Screenshot%202025-08-24%20003128.jpg)
 
 
   Verification  
