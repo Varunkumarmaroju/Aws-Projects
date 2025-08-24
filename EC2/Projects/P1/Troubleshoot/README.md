@@ -38,7 +38,7 @@ Cause: Insufficient permissions, AMI issues, or exceeded free tier.
     sudo systemctl status httpd
     ```
 
-## 5. Public IP Changed After Restart
+-> 5. Public IP Changed After Restart
 - **Cause:** EC2 public IP changes when re-stopped/started if not using Elastic IP.
 - **Solution:**  
   - Check new public IP.
