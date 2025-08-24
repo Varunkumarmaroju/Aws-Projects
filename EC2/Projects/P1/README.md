@@ -16,7 +16,7 @@ Public web server running on EC2 (t2.micro, Free Tier), reachable over HTTP.
  Steps Performed
 
 1. **Launch instance** (Amazon Linux 2, t2.micro).  
-   Step 1 - Launch Instance  (./images/step1.png)
+   Step 1 - Launch Instance   [](./images/step1.png)
 
 
 
