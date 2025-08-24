@@ -1,11 +1,8 @@
  EC2 Project – Deploy a Web Server (Free Tier)
 
- Objective :-
-Launch an EC2 instance, configure security, install Apache, and serve a sample web page.
+ Objective :- Launch an EC2 instance, configure security, install Apache, and serve a sample web page.
 
-
-Result
-Public web server running on EC2 (t2.micro, Free Tier), reachable over HTTP.
+Result:- Public web server running on EC2 (t2.micro, Free Tier), reachable over HTTP.
 
  Architecture
 **EC2**: Amazon Linux 2, t2.micro
@@ -16,29 +13,31 @@ Public web server running on EC2 (t2.micro, Free Tier), reachable over HTTP.
  Steps Performed
 
 1. **Launch instance** (Amazon Linux 2, t2.micro).  
-   Step 1 - Launch Instance   [](./images/step1.png)
+   Step 1 - Launch Instance
 
-
-
+   [Screenshot1](https://github.com/Varunkumarmaroju/Aws-Projects/raw/main/EC2%2FProjects%2FP1%2Fimages%2Fss2.png)
 
 2. **Configure Security Group**  
    Inbound: SSH 22 (My IP), HTTP 80 (0.0.0.0/0).  
    Step 2 - Security Group
 
-3. **Connect via SSH
+    [Screenshot2](https://github.com/Varunkumarmaroju/Aws-Projects/raw/main/EC2%2FProjects%2FP1%2Fimages%2Fss3.png)
+
+4. **Connect via SSH
     ssh -i mykey.pem ec2-user@<52.91.214.224>
 
-
-4. **Install Apache web server**
+5. **Install Apache web server**
    sudo yum install httpd -y
    sudo systemctl start httpd
    sudo systemctl enable httpd
 
 
-5. **Upload website content**
+6. **Upload website content**
 
-6. **Access the website via public IP**  
+7. **Access the website via public IP**  
 Step 3 - Website Running
+
+     [Screenshot3](https://github.com/Varunkumarmaroju/Aws-Projects/raw/main/EC2%2FProjects%2FP1%2Fimages%2Fss1.png)
 
 
   Verification  
