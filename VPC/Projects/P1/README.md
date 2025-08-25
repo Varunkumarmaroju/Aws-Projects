@@ -28,7 +28,7 @@ Added route: 0.0.0.0/0 → Internet Gateway.
 5️⃣ Launch EC2 Instance in Custom VPC
 Selected the custom VPC and public subnet while launching.
 Created a Security Group allowing SSH (22) and HTTP (80).
-📸 [Screenshot](https://github.com/Varunkumarmaroju/Aws-Projects/raw/main/VPC%2FProjects%2FP1%2FImages%2FScreenshot%202025-08-25%20220807.png)
+📸 [Screenshot](https://github.com/Varunkumarmaroju/Aws-Projects/raw/main/VPC%2FProjects%2FP1%2FImages%2FScreenshot%202025-08-25%20220956.png)
 📸 [Screenshot](https://github.com/Varunkumarmaroju/Aws-Projects/raw/main/VPC%2FProjects%2FP1%2FImages%2FScreenshot%202025-08-25%20221027.png)
 
 6️⃣ Connect to EC2 via SSH
