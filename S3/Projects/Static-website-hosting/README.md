@@ -1,5 +1,5 @@
-# Project 1: Static Website Hosting on S3 
 
+# Project 1: Static Website Hosting on S3 
 This project demonstrates how to host a simple static website on **Amazon S3** using **bucket ACLs** to make it publicly accessible.
 
 ##  Steps Performed
