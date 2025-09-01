@@ -15,7 +15,7 @@ Result:- Public web server running on EC2 (t2.micro, Free Tier), reachable over 
 1. **Launch instance** (Amazon Linux 2, t2.micro).  
    Step 1 - Launch Instance
 
-   [Screenshot1](https://github.com/Varunkumarmaroju/Aws-Projects/raw/main/EC2%2FProjects%2FP1%2FImages%2Fss2.png)
+   [Screenshot1](Images/ss1.png)
 
 2. **Configure Security Group**  
    Inbound: SSH 22 (My IP), HTTP 80 (0.0.0.0/0).  
