@@ -37,8 +37,7 @@ Result:- Public web server running on EC2 (t2.micro, Free Tier), reachable over 
 7. **Access the website via public IP**  
 Step 3 - Website Running
 
-     [Screenshot3](Images/ss1
-   .png)
+     [Screenshot3](Images/ss1.png)
 
 
   Verification  
