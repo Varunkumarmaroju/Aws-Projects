@@ -15,13 +15,13 @@ Result:- Public web server running on EC2 (t2.micro, Free Tier), reachable over 
 1. **Launch instance** (Amazon Linux 2, t2.micro).  
    Step 1 - Launch Instance
 
-   [Screenshot1](https://github.com/Varunkumarmaroju/Aws-Projects/raw/main/EC2%2FProjects%2FP1%2Fimages%2Fss2.png)
+   [Screenshot1](Images/ss2.png)
 
 2. **Configure Security Group**  
    Inbound: SSH 22 (My IP), HTTP 80 (0.0.0.0/0).  
    Step 2 - Security Group
 
-    [Screenshot2](https://github.com/Varunkumarmaroju/Aws-Projects/raw/main/EC2%2FProjects%2FP1%2Fimages%2Fss3.png)
+    [Screenshot2](Images/ss3.png)
 
 4. **Connect via SSH
     ssh -i mykey.pem ec2-user@<52.91.214.224>
@@ -37,7 +37,7 @@ Result:- Public web server running on EC2 (t2.micro, Free Tier), reachable over 
 7. **Access the website via public IP**  
 Step 3 - Website Running
 
-     [Screenshot3](https://github.com/Varunkumarmaroju/Aws-Projects/raw/main/EC2%2FProjects%2FP1%2Fimages%2Fss1.png)
+     [Screenshot3](Images/ss1.png)
 
 
   Verification  
