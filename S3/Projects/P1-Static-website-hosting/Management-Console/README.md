@@ -32,7 +32,7 @@ This project demonstrates how to host a simple static website on **Amazon S3** u
 - Set **index.html** as the index document.  
 - Copy the **Bucket Website Endpoint** → Open in your browser. 🎉  
 
-👉 [Screenshot 4](/Images.png)
+👉 [Screenshot 4](./Images/ss4.png)
 
 ##  Final Output
 - Your static website is now hosted on **S3** using public ACLs.  
