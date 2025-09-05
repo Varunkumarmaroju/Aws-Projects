@@ -8,7 +8,7 @@ We will create a group with S3 permissions only, add a user to it, and then test
 1️⃣ Create IAM Group – S3ADMINS
 Created a new IAM Group named S3ADMINS.
 Attached the AmazonS3FullAccess policy to the group.
-📸 [Screenshot](https://github.com/Varunkumarmaroju/Aws-Projects/raw/main/IAM%2FProjects%2FP1%2FImages%2FScreenshot%202025-08-29%20183154.png)
+📸 [Screenshot](./Images/ss1.png)
 
 2️⃣ Create IAM User – s3-user
 Created a new IAM User named s3-user.
