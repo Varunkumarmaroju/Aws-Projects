@@ -10,28 +10,28 @@ Key learning points:
 
 Screenshots & Steps
 1️⃣ Role Creation
-[Screenshot:](./Images/ss1.png)
+[Screenshot:](./Images/image1.png)
 Created a role named Role-task.
 Trusted entity: EC2.
 Purpose: To allow EC2 instances to access S3 using this role.
 
 2️⃣ Role Permissions
-[Screenshot:](./Images/ss2.png)
+[Screenshot:](./Images/image2.png)
 Attached AmazonS3ReadOnlyAccess policy.
 This allows the EC2 instance to list buckets and read objects but cannot create or delete buckets/objects.
 
 3️⃣ EC2 Instance Creation
-[Screenshot:](./Images/ss3.png)
+[Screenshot:](./Images/image3.png)
 Launched an EC2 instance and attached Role-task under Advanced Details → IAM Role.
 Verified IAM role in the console and terminal.
 
 4️⃣ S3 Bucket Creation
-[Screenshot:](./Images/ss4.png)
+[Screenshot:](./Images/image4.png)
 Created a bucket named buck-for-ec2-role in the S3 console.
 Purpose: To test EC2 role access to S3.
 
 5️⃣ Accessing S3 from EC2
-[Screenshot:](./Images/ss5.png)
+[Screenshot:](./Images/image5.png)
 Connected to EC2 using EC2 Instance Connect.
 Commands executed:
 aws s3 ls
@@ -46,3 +46,4 @@ Successfully created Role-task and attached it to an EC2 instance.
 Verified EC2 can list existing S3 buckets.
 Attempt to create a bucket failed → demonstrates role-based permissions in action.
 This project highlights secure, keyless access for EC2 instances to AWS services.
+
