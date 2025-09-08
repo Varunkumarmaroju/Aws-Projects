@@ -8,7 +8,7 @@ Finally, we install Apache and host a simple webpage to confirm the setup.
 
 1️⃣ Create a Custom VPC
 Created a VPC with CIDR block 10.0.0.0/16.
-📸 [Screenshot:](https://github.com/Varunkumarmaroju/Aws-Projects/raw/main/VPC%2FProjects%2FP1%2FImages%2FScreenshot%202025-08-25%20220707.png)
+📸 [Screenshot:](./Images/ss1.png)
 
 2️⃣ Create Subnet
 Created a public subnet with CIDR 10.0.1.0/24.
