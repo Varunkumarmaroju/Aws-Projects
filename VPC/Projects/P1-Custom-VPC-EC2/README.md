@@ -12,24 +12,24 @@ Created a VPC with CIDR block 10.0.0.0/16.
 
 2️⃣ Create Subnet
 Created a public subnet with CIDR 10.0.1.0/24.
-📸 [Screenshot](https://github.com/Varunkumarmaroju/Aws-Projects/raw/main/VPC%2FProjects%2FP1%2FImages%2FScreenshot%202025-08-25%20220726.png)
+📸 [Screenshot](./Images/ss2.png)
 
 
 3️⃣ Create & Attach Internet Gateway
 Created an Internet Gateway (IGW).
 Attached it to the custom VPC.
-📸 [Screenshot](https://github.com/Varunkumarmaroju/Aws-Projects/raw/main/VPC%2FProjects%2FP1%2FImages%2FScreenshot%202025-08-25%20220743.png)
+📸 [Screenshot](./Images/ss3.png)
 
 4️⃣ Configure Route Table
 Edited the route table of VPC to allow internet access.
 Added route: 0.0.0.0/0 → Internet Gateway.
-📸 [Screenshot](https://github.com/Varunkumarmaroju/Aws-Projects/raw/main/VPC%2FProjects%2FP1%2FImages%2FScreenshot%202025-08-25%20220807.png)
+📸 [Screenshot](./Images/ss4.png)
 
 5️⃣ Launch EC2 Instance in Custom VPC
 Selected the custom VPC and public subnet while launching.
 Created a Security Group allowing SSH (22) and HTTP (80).
-📸 [Screenshot](https://github.com/Varunkumarmaroju/Aws-Projects/raw/main/VPC%2FProjects%2FP1%2FImages%2FScreenshot%202025-08-25%20220956.png)
-📸 [Screenshot](https://github.com/Varunkumarmaroju/Aws-Projects/raw/main/VPC%2FProjects%2FP1%2FImages%2FScreenshot%202025-08-25%20221027.png)
+📸 [Screenshot](./Images/ss5.png)
+📸 [Screenshot](./Images/ss6.png)
 
 6️⃣ Connect to EC2 via SSH
 ssh -i key.pem ec2-user@<Public-IP>
@@ -45,7 +45,7 @@ sudo systemctl enable httpd
 
 echo "<h1>EC2 instance from custom VPC</h1>" | sudo tee /var/www/html/index.html
 
-📸 [Screenshot](https://github.com/Varunkumarmaroju/Aws-Projects/raw/main/VPC%2FProjects%2FP1%2FImages%2FScreenshot%202025-08-25%20221042.png)
+📸 [Screenshot](./Images/ss7.png)
 
 ### Output:-
 EC2 instance is successfully running in custom VPC.
