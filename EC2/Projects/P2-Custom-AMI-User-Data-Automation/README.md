@@ -64,7 +64,7 @@ This confirms:
 AMI creation successful
 User Data executed correctly
 Server auto-configured on first boot
-📸 [Image7]Images/ss7.png): Test-Instance webpage loaded successfully
+📸 [Image7](Images/ss7.png): Test-Instance webpage loaded successfully
 
 🎯 Key Learnings :-
 How to configure a Linux EC2 from scratch
